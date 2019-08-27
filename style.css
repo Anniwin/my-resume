@@ -13,7 +13,7 @@
   
   .sidebar {
     float: left;
-    width: 200px;
+    width: 230px;
     margin: 20px;
    
   }
@@ -65,7 +65,8 @@ padding-top: 5px;}
     margin: 3px; 
     display: inline-block;
   }
-  .fas.fa-external-link-alt {color:#2ebcae;} 
+  .fas.fa-external-link-alt {color:#2ebcae;}
+  .datetime{color:#2ebcae;}
   .fas.fa-envelope {color:#2ebcae;} 
   .bullet {
     list-style-type: square;
