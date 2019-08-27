@@ -47,12 +47,16 @@
 }​
   .name {}
   .position {margin-top: 10px;}
-  .summary {margin-top: 10px;}
+  .summary {margin-top: 10px;
+  margin-bottom: 5px;}
   
   .main 
-  {padding: 2px;
+  {margin-top: 5px;
+    padding: 20px;
     padding-right: 20px;}
-  .green-text {color: #2ebcae;}
+  .green-text {color: #2ebcae;
+  padding-bottom: 5px;
+padding-top: 5px;}
   .rcorners {
     border-radius: 20px;
     color: white;
@@ -68,7 +72,9 @@
     list-style-position: outside;
     list-style-image: none;
     padding-left: 20px; 
+    padding: 5px;
    }
+   .i-margin{padding-bottom: 5px;}
 
   .dot1{   
     height: 25px;
