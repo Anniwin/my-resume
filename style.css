@@ -25,22 +25,44 @@
   .header {
     background-color: #2ebcae;
     padding: 20px;
-    padding-left: 20px;
+    padding-right: 20px;
     color: white;
   }
+  #border {
+    border-radius:100px;
+    width:184px;
+    height:184px;
+    position:relative;
+    left:5px;
+    top:5px;
+}
+#image {
+    background-image:url(anni.jpg);
+    width:200px;
+    height:200px;
+    border-radius:100px;
+}​
   .name {}
   .position {margin-top: 10px;}
   .summary {margin-top: 10px;}
   
   .main {}
   .green-text {color: #2ebcae;}
-  .fas fa-external-link-alt {color:#2ebcae;}
+  .rcorners {
+    border-radius: 20px;
+    color: white;
+    background: #2ebcae;
+    padding: 10px; 
+    margin: 3px; 
+    display: inline-block;
+  }
+  .fas.fa-external-link-alt {color:#2ebcae;} 
+  .fas.fa-envelope {color:#2ebcae;} 
   .bullet {
     list-style-type: square;
     list-style-position: outside;
     list-style-image: none;
     padding-left: 20px; 
-    color: #2ebcae;
    }
 
   
