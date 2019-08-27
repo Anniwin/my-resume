@@ -2,18 +2,19 @@
 * {
     box-sizing: border-box;
     font-family: sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
   }
   
   body {
-    width: 1000px;
+    width: 1200px;
     margin: 10px; /* centralizes the element horizontally*/
   }
   
   .sidebar {
     float: left;
     width: 200px;
+    margin: 20px;
    
   }
   
@@ -27,6 +28,8 @@
     padding: 20px;
     padding-right: 20px;
     color: white;
+    margin-top: 25px;
+    margin-bottom: 20px;
   }
   #border {
     border-radius:100px;
